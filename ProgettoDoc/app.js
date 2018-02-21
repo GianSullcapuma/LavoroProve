@@ -27,20 +27,14 @@ app.controller("pulsantiController", ['$scope', function ($scope) {
             this.tab = setTab;
         };
     }]);
-app.directive("directiveTabs", function () {
-    return {
-        restrict: 'E',
-        templateUrl: './directive-tabs.html'
-    };
+app.component("directiveTabs", {
+    templateUrl: './directive-tabs.html'
 });
-app.directive("stampaImmagini", function () {
-    return {
-        restrict: 'E',
-        templateUrl: './stampa-immagini.html'
-    };
+app.component("stampaImmagini", {
+    templateUrl: './stampa-immagini.html'
 });
 app.component('myComp', {
-    template: "<div>Ciao da i Components</div>"
+    templateUrl: "./prova-component.html"
 });
 var Student = /** @class */ (function () {
     function Student(firstName, middleInitial, lastName) {
