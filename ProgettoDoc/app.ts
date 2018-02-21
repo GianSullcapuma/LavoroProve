@@ -42,11 +42,11 @@ app.directive("stampaImmagini", function () {
         templateUrl: './stampa-immagini.html'
     }
 });
-/*
-    app.component('myComp', {
-        template: "<div>Ciao da i Components</div>"
-    });
-*/
+
+app.component('myComp', {
+    template: "<div>Ciao da i Components</div>"
+});
+
 class Student {
     fullName: string;
     constructor(public firstName: string, public middleInitial: string, public lastName: string) {

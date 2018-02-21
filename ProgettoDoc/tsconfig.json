@@ -4,6 +4,7 @@
         "target": "ES5",
     },
     "files": [
-        "app.ts"
+        "app.ts",
+        "components.ts"
     ]
 }

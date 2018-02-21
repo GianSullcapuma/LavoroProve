@@ -1,3 +1,1 @@
-angular.module('component',[]).component('provaComp', {
-    templateUrl: './prova-component.html'
-  });
+let app2 = angular.module('cmp', []);
