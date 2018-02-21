@@ -28,14 +28,14 @@ app.controller("pulsantiController", ['$scope', function ($scope) {
         this.tab = setTab;
     }
 }]);
-/*
+
 app.directive("directiveTabs", function () {   ////la direttiva non worka
     return {
         restrict: 'E',
         templateUrl: './directive-tabs.html'
     };
 });
-*/
+
 app.directive("stampaImmagini", function () {
     return {
         restrict: 'E',
